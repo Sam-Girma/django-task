@@ -1,0 +1,7 @@
+python -m venv myenv
+activate venv: /myenv/scripts/activate
+pip install django
+pip install djangorestframework
+python manage.py runserver
+for rest api: user url localhost/user/login and localhost/user/signup
+to check with browser use: localhost/user/loginw and localhost/user/signupw

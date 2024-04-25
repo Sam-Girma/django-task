@@ -1,0 +1,105 @@
+/* styles.css */
+
+/* Reset default browser styles */
+body, h1, form {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Container styles */
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styles */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Form styles */
+form {
+    margin-top: 20px;
+}
+
+/* Label styles */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Input field styles */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Error message styles */
+.errorlist {
+    color: red;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+/* Submit button styles */
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Social login button styles */
+.btn-google,
+.btn-facebook {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.btn-google {
+    background-color: #db4437; /* Google red */
+}
+
+.btn-google:hover {
+    background-color: #c1351b; /* Darker Google red on hover */
+}
+
+.btn-facebook {
+    background-color: #3b5998; /* Facebook blue */
+}
+
+.btn-facebook:hover {
+    background-color: #2d4373; /* Darker Facebook blue on hover */
+}
